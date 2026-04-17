@@ -1,0 +1,5 @@
+{
+  "name": "肤理通",
+  "description": "A comprehensive skin disease analysis system featuring AI-powered screening, health tracking, and medical resources.",
+  "requestFramePermissions": ["camera"]
+}

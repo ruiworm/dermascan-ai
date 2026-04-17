@@ -1,0 +1,37 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Model weights (too large for Git, download separately)
+*.bin
+*.pth
+*.pt
+*.onnx
+*.safetensors
+backend/models/embeddings/
+backend/models/dermfm/
+
+# OS & IDE
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temp files
+backend/knowledge_base/temp/
